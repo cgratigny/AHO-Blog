@@ -506,3 +506,37 @@ function twentyten_posted_in() {
 	);
 }
 endif;
+
+/* Admin Customizations */
+function modify_footer_admin () {
+  echo 'Created by <a href="http://sharpmachinemedia.com">Sharp Machine Media</a>.';
+  echo 'Powered by<a href="http://WordPress.org">WordPress</a>.';
+}
+
+add_filter('admin_footer_text', 'modify_footer_admin');
+
+function custom_login_logo() {
+  echo '<style type="text/css">
+    h1 a 
+    { 
+    	background-image:url(http://www.abundantharvestorganics.com/images/logo.png) !important;
+    	width: 548px;
+    	height: 136px;
+    	margin-left: -110px;
+     }
+    </style>';
+}
+
+add_action('login_head', 'custom_login_logo');
+
+function custom_logo() {
+  echo '<style type="text/css">
+    #header-logo 
+  { 
+  	background-image: url('.get_bloginfo('template_directory').'/images/admin-logo.png) !important;
+  	width: 131px;
+   }
+    </style>';
+}
+
+add_action('admin_head', 'custom_logo');

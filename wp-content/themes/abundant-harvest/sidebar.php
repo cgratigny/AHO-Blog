@@ -1,17 +1,11 @@
-<?php
-/**
- * The Sidebar containing the primary and secondary widget areas.
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
- */
-?>
-
-		<div id="primary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-
-<?php
+	<br class="clear" /> 
+</div> 
+</div> 
+	
+	<div class="right-sec"> 
+    <div> 
+    	
+    	<?php
 	/* When we call the dynamic_sidebar() function, it'll spit out
 	 * the widgets for that widget area. If it instead returns false,
 	 * then the sidebar simply doesn't exist, so we'll hard-code in
@@ -40,17 +34,40 @@
 			</li>
 
 		<?php endif; // end primary widget area ?>
-			</ul>
-		</div><!-- #primary .widget-area -->
-
-<?php
-	// A second sidebar for widgets, just because.
-	if ( is_active_sidebar( 'secondary-widget-area' ) ) : ?>
-
-		<div id="secondary" class="widget-area" role="complementary">
-			<ul class="xoxo">
-				<?php dynamic_sidebar( 'secondary-widget-area' ); ?>
-			</ul>
-		</div><!-- #secondary .widget-area -->
-
-<?php endif; ?>
+    	
+        <p class="a-center"> 
+            <a href="http://www.abundantharvestorganics.com/newsletter_signup.html"><img src="http://www.abundantharvestorganics.com/images/get-the-weekly-feast.png" alt="" /></a> 
+        </p> 
+        <p class="seprater"> 
+        </p> 
+        <p class="a-center"> 
+            <a href="http://www.abundantharvestorganics.com/meet-vernon.html"><img src="http://www.abundantharvestorganics.com/images/meet-uncle-vern.png" alt="" /></a> 
+        </p> 
+        <p class="seprater"> 
+        </p> 
+        <p class="a-center"> 
+            <a href="http://www.abundantharvestorganics.com/tellafriend"><img src="http://www.abundantharvestorganics.com/images/tell-a-friend.png" alt="" /></a> 
+        </p> 
+        <p class="seprater"> 
+        </p> 
+        <p class="a-center"> 
+            <a href="http://www.abundantharvestorganics.com/testimonials.php"><img src="http://www.abundantharvestorganics.com/images/read-what-people.png" alt="" /></a> 
+        </p> 
+        <ul class='socialLinks'> 
+            <li class='social1'> 
+                <a href='http://www.facebook.com/pages/Abundant-Harvest-Organics/200872478629'>Abundant Harvest Facebook</a> 
+            </li> 
+            <li class='social2'> 
+                <a href='http://abundantharvestorganics.blogspot.com/'>Abundant Harvest Blog</a> 
+            </li> 
+            <li class='social3'> 
+                <a href='http://www.youtube.com/user/ahorganics'>Abundant Harvest YouTube Channel</a> 
+            </li> 
+        </ul> 
+    </div> 
+</div> 
+	
+ 
+</div> 
+</div> 
+</div>
