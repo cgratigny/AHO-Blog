@@ -13,6 +13,7 @@
  <small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
  
   <div class="entry">
+  	<?php the_post_thumbnail(); ?>
     <?php the_excerpt(); ?>
   </div>
 
@@ -26,3 +27,5 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+
+

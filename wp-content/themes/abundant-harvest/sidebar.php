@@ -34,36 +34,6 @@
 			</li>
 
 		<?php endif; // end primary widget area ?>
-    	
-        <p class="a-center"> 
-            <a href="http://www.abundantharvestorganics.com/newsletter_signup.html"><img src="http://www.abundantharvestorganics.com/images/get-the-weekly-feast.png" alt="" /></a> 
-        </p> 
-        <p class="seprater"> 
-        </p> 
-        <p class="a-center"> 
-            <a href="http://www.abundantharvestorganics.com/meet-vernon.html"><img src="http://www.abundantharvestorganics.com/images/meet-uncle-vern.png" alt="" /></a> 
-        </p> 
-        <p class="seprater"> 
-        </p> 
-        <p class="a-center"> 
-            <a href="http://www.abundantharvestorganics.com/tellafriend"><img src="http://www.abundantharvestorganics.com/images/tell-a-friend.png" alt="" /></a> 
-        </p> 
-        <p class="seprater"> 
-        </p> 
-        <p class="a-center"> 
-            <a href="http://www.abundantharvestorganics.com/testimonials.php"><img src="http://www.abundantharvestorganics.com/images/read-what-people.png" alt="" /></a> 
-        </p> 
-        <ul class='socialLinks'> 
-            <li class='social1'> 
-                <a href='http://www.facebook.com/pages/Abundant-Harvest-Organics/200872478629'>Abundant Harvest Facebook</a> 
-            </li> 
-            <li class='social2'> 
-                <a href='http://abundantharvestorganics.blogspot.com/'>Abundant Harvest Blog</a> 
-            </li> 
-            <li class='social3'> 
-                <a href='http://www.youtube.com/user/ahorganics'>Abundant Harvest YouTube Channel</a> 
-            </li> 
-        </ul> 
     </div> 
 </div> 
 	

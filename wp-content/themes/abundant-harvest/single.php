@@ -27,6 +27,8 @@ get_header(); ?>
   <p class="postmetadata">Posted in <?php the_category(', '); ?></p>
 
 <?php comments_template( '', true ); ?>
+
+
  </div> <!-- closes the first div box -->
  <?php endwhile; else: ?>
  <p>Sorry, no posts matched your criteria.</p>

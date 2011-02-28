@@ -28,7 +28,7 @@
 <link href="http://www.abundantharvestorganics.com/css/extra.css" media="screen" rel="stylesheet" type="text/css" /> 
 <link href="http://www.abundantharvestorganics.com/css/print.css" media="print" rel="stylesheet" type="text/css" /> 
 
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/css/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/css/wp-style.css" />
 
 <meta name="verify-v1" content="A9WCKx/YqNdT3dtI5oHl0Vpa/gWkTL4r6yDlON9W5vE=" /> 
 <LINK REL=stylesheet TYPE="text/css" media="screen" HREF="http://www.abundantharvestorganics.com/Library/css/moodalbox.css" /> 
