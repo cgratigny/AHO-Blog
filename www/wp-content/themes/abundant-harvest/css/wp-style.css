@@ -2,16 +2,62 @@
   padding-bottom: 0;
   min-height: 565px;
 }
+.cont-area .mid-sec .cont-bg h2.blog-title {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.cont-area .mid-sec .cont-bg h2.blog-title a { text-decoration: none; }
+.cont-area .mid-sec .cont-bg h2.blog-title a:hover { text-decoration: underline; }
+.cont-area .mid-sec .cont-bg h2.entry-title { font-size: 1.17em; }
+.cont-area .mid-sec .cont-bg h1.page-title { font-size: 1.5em; }
+.cont-area .mid-sec .cont-bg h3.page-title { font-size: 1.5em; }
 .cont-area .mid-sec .cont-bg .post { padding: 10px; }
 .cont-area .mid-sec .cont-bg .post p {
   padding: 0;
   margin-bottom: 1em;
 }
+.cont-area .mid-sec .cont-bg .post ol.commentlist { margin-left: 0; }
+.cont-area .mid-sec .cont-bg .post ol.commentlist li { margin-bottom: 0; }
 .cont-area .mid-sec .cont-bg .post ul { margin-left: 40px; }
 .cont-area .mid-sec .cont-bg .post ul li { margin-bottom: 1em; }
 .cont-area .mid-sec .cont-bg .post ol { margin-left: 40px; }
 .cont-area .mid-sec .cont-bg .post ol li { margin-bottom: 1em; }
-.cont-area .mid-sec .cont-bg .post h2 { padding-left: 0; }
+.cont-area .mid-sec .cont-bg .post h1 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post h2 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post h3 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post h4 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post h5 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post h6 {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+.cont-area .mid-sec .cont-bg .post .entry-meta { margin: 1em 0; }
+.cont-area .mid-sec .cont-bg .post img.wp-post-image {
+  float: left;
+  display: inline;
+  margin: 4px 24px 12px 0;
+}
 #comments { clear: both; }
 #comments .navigation { padding: 0 0 18px 0; }
 h3#reply-title {
@@ -31,7 +77,7 @@ h3#reply-title {
 h3#comments-title {
   padding: 24px 0;
   color: #000000;
-  font-size: 20px;
+  font-size: 1.17em;
   font-weight: bold;
   margin: 0;
 }
@@ -40,15 +86,14 @@ h3#comments-title {
   margin: 0;
 }
 .commentlist li.comment {
-  border-bottom: 1px solid #e7e7e7;
-  margin: 0 0 24px 0;
-  padding: 0 0 0 56px;
+  border: 1px solid #d8c19e;
+  margin: 0 0 23px 0;
+  padding: 20px 20px 20px 66px;
   position: relative;
+  background: #fbf8f3 url(http://www.abundantharvestorganics.com/images/dark-strip.gif) repeat-x left bottom;
+  width: 82%;
 }
-.commentlist li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-}
+.commentlist li:last-child { margin-bottom: 0; }
 #comments .comment-body ul { margin-bottom: 18px; }
 #comments .comment-body ol { margin-bottom: 18px; }
 #comments .comment-body p:last-child { margin-bottom: 6px; }
@@ -56,8 +101,8 @@ h3#comments-title {
 .commentlist ol { list-style: decimal; }
 .commentlist .avatar {
   position: absolute;
-  top: 4px;
-  left: 0;
+  top: 20px;
+  left: 15px;
 }
 .comment-author cite {
   color: #000000;
@@ -122,7 +167,6 @@ a.comment-edit-link:hover { color: #ff4b33; }
   clear: both;
   width: 410px;
   margin-top: -18px;
-  height: 465px;
 }
 #commentform input {
   background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
@@ -133,9 +177,8 @@ a.comment-edit-link:hover { color: #ff4b33; }
   margin-left: 20px;
   margin-right: 5px;
 }
-input[type=submit] { color: transparent; }
+div.post input[type=submit] { color: transparent; }
 #respond {
-  border-top: 1px solid #e7e7e7;
   margin: 24px 0;
   overflow: hidden;
   position: relative;
@@ -232,3 +275,26 @@ blockquote {
 blockquote cite { font-style: normal; }
 blockquote em { font-style: normal; }
 blockquote i { font-style: normal; }
+#entry-author-info {
+  clear: both;
+  margin: 24px 0;
+  overflow: hidden;
+  padding: 0 20px;
+}
+#entry-author-info #author-avatar {
+  border: 1px solid #e7e7e7;
+  float: left;
+  height: 60px;
+  margin: 0 -104px 0 0;
+  padding: 11px;
+}
+#entry-author-info #author-description {
+  float: left;
+  margin: 0 0 0 104px;
+}
+#entry-author-info h2 {
+  color: #000000;
+  font-size: 100%;
+  font-weight: bold;
+  margin-bottom: 0;
+}

@@ -2,6 +2,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.abundantharvestorganics.com/favicon.ico">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -112,4 +113,4 @@
 	<div class="mid-sec"> 
     <div id="template-top-cor" class="top-cor"></div> 
     <div id="template-cont-bg" class="cont-bg">
-    	<h2><a href="<?php bloginfo('url'); ?>">Blog</a></h2> 
+    	<h2 class="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('blog_title'); ?></a></h2> 

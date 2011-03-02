@@ -3,6 +3,32 @@
 	padding-bottom: 0;
 	min-height: 565px;
 	
+	h2.blog-title
+	{
+		padding-left: 10px;
+		margin-bottom: 0;
+		
+		a
+		{
+			text-decoration: none;
+			
+			:hover
+			{
+				text-decoration: underline;
+			}	
+		}
+	}
+	
+	h2.entry-title
+	{
+		font-size: 1.17em;
+	}
+	
+	h1.page-title, h3.page-title
+	{
+		font-size: 1.5em;
+	}
+	
 	.post
 	{
 		padding: 10px;
@@ -13,6 +39,17 @@
 			margin-bottom: 1em;
 		}
 		
+		ol.commentlist
+		{
+			margin-left: 0;
+			
+			li
+			{
+				margin-bottom: 0;
+			}
+			
+		}
+		
 		ul, ol
 		{
 			margin-left: 40px;
@@ -21,11 +58,26 @@
 			{
 				margin-bottom: 1em;
 			}
+			
 		}
 		
-		h2
+		h1, h2, h3, h4, h5, h6
 		{
-			padding-left: 0;
+			border: none;
+			padding:0;
+			margin: 0 0 1em 0;
+		}
+		
+		.entry-meta
+		{
+			margin: 1em 0;
+		}
+		
+		img.wp-post-image
+		{
+			float: left;
+			display: inline;
+			margin: 4px 24px 12px 0;
 		}
 	}
 }
@@ -55,7 +107,7 @@ margin-top: 20px;
 h3#comments-title {
 	padding: 24px 0;
 	color: #000;
-	font-size: 20px;
+	font-size: 1.17em;
 	font-weight: bold;
 	margin: 0;
 }
@@ -64,13 +116,16 @@ h3#comments-title {
 	margin: 0;
 }
 .commentlist li.comment {
-	border-bottom: 1px solid #e7e7e7;
-	margin: 0 0 24px 0;
-	padding: 0 0 0 56px;
+	border: 1px solid #D8C19E;
+	margin: 0 0 23px 0;
+	padding: 20px 20px 20px 66px;
 	position: relative;
+	background: #FBF8F3 url(http://www.abundantharvestorganics.com/images/dark-strip.gif) repeat-x left bottom;
+	width: 82%;	
 }
+
+
 .commentlist li:last-child {
-	border-bottom: none;
 	margin-bottom: 0;
 }
 #comments .comment-body ul,
@@ -88,8 +143,8 @@ h3#comments-title {
 }
 .commentlist .avatar {
 	position: absolute;
-	top: 4px;
-	left: 0;
+	top: 20px;
+	left: 15px;
 }
 .comment-author {
 }
@@ -174,7 +229,6 @@ margin-right: 10px;
 clear: both;
 width: 410px;
 margin-top: -18px;
-height: 465px;
 
 	input
 	{
@@ -188,12 +242,10 @@ height: 465px;
 	}
 }
 
-
-input[type=submit] {
+div.post input[type=submit] {
 	color: transparent;
 }
 #respond {
-	border-top: 1px solid #e7e7e7;
 	margin: 24px 0;
 	overflow: hidden;
 	position: relative;
@@ -322,8 +374,6 @@ img.aligncenter {
 	margin: 0;
 }
 
-
-
 blockquote {
 	font-style: italic;
 	padding: 0 3em;
@@ -334,5 +384,27 @@ blockquote i {
 	font-style: normal;
 }
 
-
+#entry-author-info {
+	clear: both;
+	margin: 24px 0;
+	overflow: hidden;
+	padding: 0 20px;
+}
+#entry-author-info #author-avatar {
+	border: 1px solid #e7e7e7;
+	float: left;
+	height: 60px;
+	margin: 0 -104px 0 0;
+	padding: 11px;
+}
+#entry-author-info #author-description {
+	float: left;
+	margin: 0 0 0 104px;
+}
+#entry-author-info h2 {
+	color: #000;
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 0;
+}
 
