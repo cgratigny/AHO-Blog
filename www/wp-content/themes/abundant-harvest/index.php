@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 
-
-
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+<h2 class="blog-title"><?php bloginfo('blog_title'); ?></h2>
  <div class="post">
  
  <!-- Display the Title as a link to the Post's permalink. -->

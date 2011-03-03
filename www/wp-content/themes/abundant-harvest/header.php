@@ -28,9 +28,7 @@
 <link href="http://www.abundantharvestorganics.com/css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
 <link href="http://www.abundantharvestorganics.com/css/extra.css" media="screen" rel="stylesheet" type="text/css" /> 
 <link href="http://www.abundantharvestorganics.com/css/print.css" media="print" rel="stylesheet" type="text/css" /> 
-
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/css/wp-style.css" />
-
 <meta name="verify-v1" content="A9WCKx/YqNdT3dtI5oHl0Vpa/gWkTL4r6yDlON9W5vE=" /> 
 <LINK REL=stylesheet TYPE="text/css" media="screen" HREF="http://www.abundantharvestorganics.com/Library/css/moodalbox.css" /> 
 <script src="http://www.abundantharvestorganics.com/Library/js/addingajax.js.php" type="text/javascript"></script> 
@@ -62,34 +60,22 @@
         <div class="logo"> 
           <h1><a href="http://www.abundantharvestorganics.com/index.html">AHO</a></h1> 
         </div> 
-		
 		 <div class="top-link"> 
- 
             <ul> 
-			
-            <li> 
-            <a href="http://www.abundantharvestorganics.com/login.html">Login to Your Account </a> 
- 
-            </li> 
-            <li> 
-            <a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html" class="top-signup">Sign Up NOW for Service</a> 
- 
-            </li> 
-			
-						
+	            <li> 
+	            <a href="http://www.abundantharvestorganics.com/login.html">Login to Your Account </a> 
+	            </li> 
+	            <li> 
+	            <a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html" class="top-signup">Sign Up NOW for Service</a> 
+	            </li> 
           </ul> 
- 
         </div> 
-		
-		
       </div> 
  
       <div class="cont-area"> 
         <div class="left-menu"> 
           <ul> 
             <li ><a href="http://www.abundantharvestorganics.com/index.html">Home</a></li> 
- 
-			
 			<li><a href="http://www.abundantharvestorganics.com/how_it_works.html">How It Works</a></li> 
             <li ><a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html">Sign Up NOW</a></li> 
             <li class="last "><a href="http://www.abundantharvestorganics.com/about-us.html">About Us</a></li> 
@@ -113,4 +99,4 @@
 	<div class="mid-sec"> 
     <div id="template-top-cor" class="top-cor"></div> 
     <div id="template-cont-bg" class="cont-bg">
-    	<h2 class="blog-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('blog_title'); ?></a></h2> 
+    	 

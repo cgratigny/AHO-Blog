@@ -1,12 +1,37 @@
+.rounded-corners(@radius:5px)
+{
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
 .cont-area .mid-sec .cont-bg
 {
 	padding-bottom: 0;
 	min-height: 565px;
 	
+	input[type=text]
+	{
+		background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+			height: 19px;
+			padding: 2px;
+			border: none;
+			border-right: 1px solid #BCB3B2;
+		}
+	input#searchsubmit
+	{
+		color: #000;
+	}
+	
 	h2.blog-title
 	{
 		padding-left: 10px;
 		margin-bottom: 0;
+		
+		span
+		{
+			padding: 0;
+		}
 		
 		a
 		{
@@ -123,8 +148,6 @@ h3#comments-title {
 	background: #FBF8F3 url(http://www.abundantharvestorganics.com/images/dark-strip.gif) repeat-x left bottom;
 	width: 82%;	
 }
-
-
 .commentlist li:last-child {
 	margin-bottom: 0;
 }
@@ -406,5 +429,79 @@ blockquote i {
 	font-size: 100%;
 	font-weight: bold;
 	margin-bottom: 0;
+}
+
+.cont-area .right-sec
+{
+	background: url(https://www.abundantharvestorganics.com/images/right-bg-img.gif) repeat-y center top;
+	padding: 10px 15px 0 15px;
+	position: relative;
+	width: 157px;
+	height: auto;
+	float: right;
+	.rounded-corners;
+	margin-bottom: 10px;
+
+		a, a:link, a:visited
+		{
+			color: #640D0D;
+			text-decoration: underline;
+		}
+
+		li
+		{
+			list-style: none;
+			font-size: 0.9em;
+		}
+		
+		.widget-container
+		{
+			background-color: #fff;
+			margin-bottom: 10px;
+			padding: 5px;
+			border: 1px solid #000;
+		}
+		
+		h2
+		{
+			margin-bottom: 10px;
+			
+			img
+			{
+				margin-right: 5px;
+			}
+			
+			a, a:link
+			{
+				text-decoration: none;
+				
+				:hover
+				{
+					text-decoration: underline;
+				}
+			}
+		}
+		
+		h3
+		{
+			font-size: 12px;
+		}
+		
+		input[type=text]
+		{
+			width: 97%;
+			margin-bottom: 5px;
+			background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+			height: 19px;
+			padding: 2px;
+			border: none;
+			border-right: 1px solid #BCB3B2;
+		}
+		
+		input[type=submit]
+		{
+			padding: 2px 5px;
+			cursor: pointer;
+		}
 }
 

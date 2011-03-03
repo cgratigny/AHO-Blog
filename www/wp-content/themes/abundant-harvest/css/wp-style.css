@@ -2,10 +2,19 @@
   padding-bottom: 0;
   min-height: 565px;
 }
+.cont-area .mid-sec .cont-bg input[type=text] {
+  background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+  height: 19px;
+  padding: 2px;
+  border: none;
+  border-right: 1px solid #bcb3b2;
+}
+.cont-area .mid-sec .cont-bg input#searchsubmit { color: #000000; }
 .cont-area .mid-sec .cont-bg h2.blog-title {
   padding-left: 10px;
   margin-bottom: 0;
 }
+.cont-area .mid-sec .cont-bg h2.blog-title span { padding: 0; }
 .cont-area .mid-sec .cont-bg h2.blog-title a { text-decoration: none; }
 .cont-area .mid-sec .cont-bg h2.blog-title a:hover { text-decoration: underline; }
 .cont-area .mid-sec .cont-bg h2.entry-title { font-size: 1.17em; }
@@ -297,4 +306,58 @@ blockquote i { font-style: normal; }
   font-size: 100%;
   font-weight: bold;
   margin-bottom: 0;
+}
+.cont-area .right-sec {
+  background: url(https://www.abundantharvestorganics.com/images/right-bg-img.gif) repeat-y center top;
+  padding: 10px 15px 0 15px;
+  position: relative;
+  width: 157px;
+  height: auto;
+  float: right;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.cont-area .right-sec a {
+  color: #640d0d;
+  text-decoration: underline;
+}
+.cont-area .right-sec a:link {
+  color: #640d0d;
+  text-decoration: underline;
+}
+.cont-area .right-sec a:visited {
+  color: #640d0d;
+  text-decoration: underline;
+}
+.cont-area .right-sec li {
+  list-style: none;
+  font-size: 0.9em;
+}
+.cont-area .right-sec .widget-container {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #000000;
+}
+.cont-area .right-sec h2 { margin-bottom: 10px; }
+.cont-area .right-sec h2 img { margin-right: 5px; }
+.cont-area .right-sec h2 a { text-decoration: none; }
+.cont-area .right-sec h2 a:hover { text-decoration: underline; }
+.cont-area .right-sec h2 a:link { text-decoration: none; }
+.cont-area .right-sec h2 a:link:hover { text-decoration: underline; }
+.cont-area .right-sec h3 { font-size: 12px; }
+.cont-area .right-sec input[type=text] {
+  width: 97%;
+  margin-bottom: 5px;
+  background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+  height: 19px;
+  padding: 2px;
+  border: none;
+  border-right: 1px solid #bcb3b2;
+}
+.cont-area .right-sec input[type=submit] {
+  padding: 2px 5px;
+  cursor: pointer;
 }

@@ -1,19 +1,10 @@
-<?php
-/**
- * The template for displaying Search Results pages.
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
- */
+<?php get_header(); ?>
 
-get_header(); ?>
-
-		<div id="container">
-			<div id="content" role="main">
+<h2 class="page-title blog-title"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h2>
+		<div class="post">
 
 <?php if ( have_posts() ) : ?>
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+				
 				<?php
 				/* Run the loop for the search to output the results.
 				 * If you want to overload this in a child theme then include a file
@@ -30,8 +21,8 @@ get_header(); ?>
 					</div><!-- .entry-content -->
 				</div><!-- #post-0 -->
 <?php endif; ?>
-			</div><!-- #content -->
-		</div><!-- #container -->
+
+		</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

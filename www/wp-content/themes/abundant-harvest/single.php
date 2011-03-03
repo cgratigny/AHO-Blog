@@ -1,22 +1,10 @@
-<?php
-/**
- * The Template for displaying all single posts.
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
- */
-
-get_header(); ?>
+<?php get_header(); ?>
 
 
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-
+<h2 class="blog-title"><?php the_title(); ?></h2>
  <div class="post">
  
- <!-- Display the Title as a link to the Post's permalink. -->
- <h3><?php the_title(); ?></h3>
-
  <!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
  <small><?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?></small>
  

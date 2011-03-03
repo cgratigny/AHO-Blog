@@ -1,30 +1,13 @@
+<?php get_header(); ?>
 <?php
-/**
- * The template for displaying Author Archive pages.
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
- */
-
-get_header(); ?>
-
-		<div class="post">
-
-<?php
-	/* Queue the first post, that way we know who
-	 * the author is when we try to get their name,
-	 * URL, description, avatar, etc.
-	 *
-	 * We reset this later so we can run the loop
-	 * properly with a call to rewind_posts().
-	 */
 	if ( have_posts() )
 		the_post();
 ?>
 
-				<h1 class="page-title author"><?php printf( __( 'Author Archives: %s', 'twentyten' ), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url( get_the_author_meta( 'ID' ) ) . "' title='" . esc_attr( get_the_author() ) . "' rel='me'>" . get_the_author() . "</a></span>" ); ?></h1>
+	<h2 class="page-title author blog-title"><?php printf( __( 'Author Archives: %s', 'twentyten' ), "<span class='vcard'><a class='url fn n' href='" . get_author_posts_url( get_the_author_meta( 'ID' ) ) . "' title='" . esc_attr( get_the_author() ) . "' rel='me'>" . get_the_author() . "</a></span>" ); ?></h2>
 
+		<div class="post">
+			
 <?php
 // If a user has filled out their description, show a bio on their entries.
 if ( get_the_author_meta( 'description' ) ) : ?>

@@ -1,19 +1,12 @@
-<?php
-/**
- * The template for displaying Category Archive pages.
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
- */
+<?php get_header(); ?>
 
-get_header(); ?>
+<h2 class="page-title blog-title"><?php
+					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+				?></h2>
 
 		<div class="post">
 
-				<h1 class="page-title"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
+				
 				<?php
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
