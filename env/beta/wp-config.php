@@ -19,7 +19,7 @@
 define('DB_NAME', 'aho-blog2');
 
 /** MySQL database username */
-define('DB_USER', 'blog');
+define('DB_USER', 'betablog');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'y18i7Cj');
