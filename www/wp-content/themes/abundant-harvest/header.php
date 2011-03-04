@@ -2,6 +2,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="description" content="Abundant Harvest Organics is a California farm-share delivery service—similar to a CSA (Community Supported Agriculture)—offering weekly organic fruit and vegetable delivery to community sites throughout California." /> 
+<meta name="keywords" content="Weekly organic fruit and vegetable delivery, organic produce, organic fruits and vegetables, CSA, Community 
+Supported Agriculture" />
 <link rel="shortcut icon" type="image/x-icon" href="http://www.abundantharvestorganics.com/favicon.ico">
 <title><?php
 	/*
@@ -62,12 +65,8 @@
         </div> 
 		 <div class="top-link"> 
             <ul> 
-	            <li> 
-	            <a href="http://www.abundantharvestorganics.com/login.html">Login to Your Account </a> 
-	            </li> 
-	            <li> 
-	            <a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html" class="top-signup">Sign Up NOW for Service</a> 
-	            </li> 
+	            <li><a href="http://www.abundantharvestorganics.com/login.html">Login to Your Account </a></li> 
+	            <li><a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html" class="top-signup">Sign Up NOW for Service</a></li> 
           </ul> 
         </div> 
       </div> 
@@ -90,6 +89,7 @@
             <li ><a href="http://www.abundantharvestorganics.com/newsletter.html">Newsletter</a></li> 
             <li class="last "><a href="http://www.abundantharvestorganics.com/contact-us.html">Contact Us</a></li> 
           </ul> 
+          
           <div class="bot-logo-sec"> 
             <p><a href="http://www.usda.gov"><img src="http://www.abundantharvestorganics.com/images/usda-logo.png" alt="" /></a>&nbsp;&nbsp;<a href="http://www.ccof.org"><img src="http://www.abundantharvestorganics.com/images/har-logo.gif" alt="" /></a></p> 
             <p><a href="http://www.localharvest.org"><img src="http://www.abundantharvestorganics.com/images/local-harvest.png" alt="" /></a></p> 
@@ -97,6 +97,5 @@
         </div> 
  
 	<div class="mid-sec"> 
-    <div id="template-top-cor" class="top-cor"></div> 
-    <div id="template-cont-bg" class="cont-bg">
-    	 
+   	 	<div id="template-top-cor" class="top-cor"></div> 
+    		<div id="template-cont-bg" class="cont-bg">

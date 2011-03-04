@@ -361,3 +361,32 @@ blockquote i { font-style: normal; }
   padding: 2px 5px;
   cursor: pointer;
 }
+.emm-paginate a {
+  background: #dddddd;
+  margin-right: 4px;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+}
+.emm-paginate a:hover {
+  background: #cccccc;
+  color: #888888;
+}
+.emm-paginate a:active {
+  background: #cccccc;
+  color: #888888;
+}
+.emm-paginate .emm-title {
+  color: #555555;
+  margin-right: 4px;
+}
+.emm-paginate .emm-gap {
+  color: #999999;
+  margin-right: 4px;
+}
+.emm-paginate .emm-current {
+  color: #ffffff;
+  background: #640d0d;
+  margin-right: 4px;
+  padding: 3px 6px;
+}
