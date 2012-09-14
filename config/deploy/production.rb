@@ -10,6 +10,6 @@ set :user, "root"                                                               
 # MAIN CONFIG
 # =============================================================================
 
-role :web, "www.abundantharvestorganics.com"                                                                            # Your HTTP server, Apache/etc
-role :app, "www.abundantharvestorganics.com"                                                                            # This may be the same as your `Web` server
-role :db,  "www.abundantharvestorganics.com", :primary => true                                                          # This is where Rails migrations will run
+role :web, "173.255.212.88"                                                                            # Your HTTP server, Apache/etc
+role :app, "173.255.212.88"                                                                            # This may be the same as your `Web` server
+role :db,  "173.255.212.88", :primary => true                                                          # This is where Rails migrations will run

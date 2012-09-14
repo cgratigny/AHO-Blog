@@ -11,7 +11,7 @@
 }
 .cont-area .mid-sec .cont-bg input#searchsubmit { color: #000000; }
 .cont-area .mid-sec .cont-bg h2.blog-title {
-  padding-left: 10px;
+  padding-left: 15px;
   margin-bottom: 0;
 }
 .cont-area .mid-sec .cont-bg h2.blog-title span { padding: 0; }
@@ -20,7 +20,8 @@
 .cont-area .mid-sec .cont-bg h2.entry-title { font-size: 1.17em; }
 .cont-area .mid-sec .cont-bg h1.page-title { font-size: 1.5em; }
 .cont-area .mid-sec .cont-bg h3.page-title { font-size: 1.5em; }
-.cont-area .mid-sec .cont-bg .post { padding: 10px; }
+.cont-area .mid-sec .cont-bg .post { padding: 15px; }
+.cont-area .mid-sec .cont-bg .post .post { padding: 0; }
 .cont-area .mid-sec .cont-bg .post p {
   padding: 0;
   margin-bottom: 1em;
