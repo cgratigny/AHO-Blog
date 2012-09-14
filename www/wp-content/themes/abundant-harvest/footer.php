@@ -3,13 +3,13 @@
         <div class="copyright"> 
             <p>&copy; 2011 Abundant Harvest Organics</p> 
             <p> 
-                <strong><a href="http://www.abundantharvestorganics.com/login.html">LOGIN</a></strong> 
-                | <strong><a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html">Sign Up for Service</a></strong> 
+                <strong><a href="/login.html">LOGIN</a></strong> 
+                | <strong><a href="/signup-delivery-step1.html">Sign Up for Service</a></strong> 
             </p> 
-            <p><a href="http://www.abundantharvestorganics.com/privacy-policy.html">Privacy Policy</a></p> 
+            <p><a href="/privacy-policy.html">Privacy Policy</a></p> 
         </div> 
         
- 		<div class="footer-txt"><strong>Abundant Harvest Organics</strong> is a California farm-share delivery service—similar to a CSA (Community Supported Agriculture)—offering weekly organic fruit and vegetable delivery to community sites throughout California. We work with California organic family farmers to bring you a weekly delivery of fresh organic fruits and vegetables. Also available is organic meat (beef, chicken, turkey, fish, pork), organic dairy (including butter, cheese, raw milk and pastured eggs) and nuts, beans and herbs. Weekly delivery of organic produce promotes healthier eating, saves money and time and can help simplify your life. <a href="http://www.abundantharvestorganics.com/signup-delivery-step1.html"><strong><u>Sign Up NOW</u></strong></a>
+ 		<div class="footer-txt"><strong>Abundant Harvest Organics</strong> is a California farm-share delivery service—similar to a CSA (Community Supported Agriculture)—offering weekly organic fruit and vegetable delivery to community sites throughout California. We work with California organic family farmers to bring you a weekly delivery of fresh organic fruits and vegetables. Also available is organic meat (beef, chicken, turkey, fish, pork), organic dairy (including butter, cheese, raw milk and pastured eggs) and nuts, beans and herbs. Weekly delivery of organic produce promotes healthier eating, saves money and time and can help simplify your life. <a href="/signup-delivery-step1.html"><strong><u>Sign Up NOW</u></strong></a>
  		</div>        
  		
  		 <div class="organics-sec"> 

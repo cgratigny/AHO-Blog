@@ -519,7 +519,7 @@ function custom_login_logo() {
   echo '<style type="text/css">
     h1 a 
     { 
-    	background-image:url(http://www.abundantharvestorganics.com/images/logo.png) !important;
+    	background-image:url(/images/logo.png) !important;
     	width: 548px;
     	height: 136px;
     	margin-left: -110px;

@@ -3,7 +3,7 @@
   min-height: 565px;
 }
 .cont-area .mid-sec .cont-bg input[type=text] {
-  background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+  background: url(/images/search-txt-box.gif) no-repeat left top;
   height: 19px;
   padding: 2px;
   border: none;
@@ -71,7 +71,7 @@
 #comments { clear: both; }
 #comments .navigation { padding: 0 0 18px 0; }
 h3#reply-title {
-  background: #180b0b url(http://www.abundantharvestorganics.com/images/title-bg.gif) repeat-x left top;
+  background: #180b0b url(/images/title-bg.gif) repeat-x left top;
   height: 31px;
   border: 1px #d8c19e solid;
   border-bottom: 0px;
@@ -100,7 +100,7 @@ h3#comments-title {
   margin: 0 0 23px 0;
   padding: 20px 20px 20px 66px;
   position: relative;
-  background: #fbf8f3 url(http://www.abundantharvestorganics.com/images/dark-strip.gif) repeat-x left bottom;
+  background: #fbf8f3 url(/images/dark-strip.gif) repeat-x left bottom;
   width: 82%;
 }
 .commentlist li:last-child { margin-bottom: 0; }
@@ -170,7 +170,7 @@ a.comment-edit-link:hover { color: #ff4b33; }
   font-style: italic;
 }
 #commentform {
-  background: #fbf8f3 url(http://www.abundantharvestorganics.com/images/dark-strip2.gif) repeat-x left bottom;
+  background: #fbf8f3 url(/images/dark-strip2.gif) repeat-x left bottom;
   border: 1px #d8c19e solid;
   padding: 10px 30px;
   margin-right: 10px;
@@ -179,7 +179,7 @@ a.comment-edit-link:hover { color: #ff4b33; }
   margin-top: -18px;
 }
 #commentform input {
-  background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+  background: url(/images/search-txt-box.gif) no-repeat left top;
   height: 19px;
   width: 159px;
   padding: 2px;
@@ -352,7 +352,7 @@ blockquote i { font-style: normal; }
 .cont-area .right-sec input[type=text] {
   width: 97%;
   margin-bottom: 5px;
-  background: url(http://www.abundantharvestorganics.com/images/search-txt-box.gif) no-repeat left top;
+  background: url(/images/search-txt-box.gif) no-repeat left top;
   height: 19px;
   padding: 2px;
   border: none;
